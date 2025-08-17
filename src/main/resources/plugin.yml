@@ -1,6 +1,6 @@
 name: EasyManager
 main: easy.vnnightcoderzzz.easymanager.EasyManager
-version: 1.0.0
+version: 1.0.1
 api-version: 1.16
 author: VNNightCoderzzz
 commands:
@@ -53,21 +53,7 @@ commands:
     description: Usage guide & command suggestions
     usage: /easyhtu [keyword|commandName]
 permissions:
-  easymanager:
+  easymanager.*:
     description: Permission to use EasyManager
     default: op
-  easymanager.command:
-    description: Permission to use EasyManager commands
-    default: op
-  easymanager.use:
-    description: Use EasyManager
-    default: op
-  easymanager.admin:
-    description: EasyManager admin permission
-    default: op
-  easymanager.ban:
-    description: Permission to ban players
-    default: op
-  easymanager.lockdown.bypass:
-    description: Bypass server lockdown
-    default: op
+

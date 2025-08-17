@@ -1,0 +1,73 @@
+name: EasyManager
+main: easy.vnnightcoderzzz.easymanager.EasyManager
+version: 1.0.0
+api-version: 1.16
+author: VNNightCoderzzz
+commands:
+  easyban:
+    description: Ban a player
+    usage: /easyban <name> [reason]
+  easyunban:
+    description: Unban a player
+    usage: /easyunban <name>
+  easybanip:
+    description: Ban by IP or a player's IP
+    usage: /easybanip <name|ip> [reason]
+  easyunbanip:
+    description: Unban an IP
+    usage: /easyunbanip <name|ip>
+  easykick:
+    description: Kick a player
+    usage: /easykick <name> [reason]
+  easylist:
+    description: List online players + ping
+    usage: /easylist
+  easybroadcast:
+    description: Broadcast a server-wide message
+    usage: /easybroadcast <message>
+  easytps:
+    description: Check TPS
+    usage: /easytps
+  easyonline:
+    description: Check online player count
+    usage: /easyonline
+  easyclearlag:
+    description: Clear entities to reduce lag
+    usage: /easyclearlag
+  easywhitelist:
+    description: Manage EasyManager's custom whitelist
+    usage: /easywhitelist <add/remove/list/enable/disable/content>
+  easylockdown:
+    description: Enable/disable server lockdown
+    usage: /easylockdown <on|off>
+  easystop:
+    description: Stop the server
+    usage: /easystop
+  easyrestart:
+    description: Restart the server
+    usage: /easyrestart
+  easybetterban:
+    description: Advanced ban with expiry date + color + server name
+    usage: /easybetterban <name> <reason> <serverName> <color> <ddMMyyyy>
+  easyhtu:
+    description: Usage guide & command suggestions
+    usage: /easyhtu [keyword|commandName]
+permissions:
+  easymanager:
+    description: Permission to use EasyManager
+    default: op
+  easymanager.command:
+    description: Permission to use EasyManager commands
+    default: op
+  easymanager.use:
+    description: Use EasyManager
+    default: op
+  easymanager.admin:
+    description: EasyManager admin permission
+    default: op
+  easymanager.ban:
+    description: Permission to ban players
+    default: op
+  easymanager.lockdown.bypass:
+    description: Bypass server lockdown
+    default: op

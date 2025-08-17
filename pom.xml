@@ -6,7 +6,7 @@
 
     <groupId>vnnightcoderzzz.easymanager</groupId>
     <artifactId>EasyManager</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>EasyManager</name>
     <description>All-in-one Minecraft server management plugin: bans, kicks, restarts, whitelist, broadcasts, TPS, and more.</description>
     <url>https://github.com/VNNightCoderzzz/EasyManager</url>
@@ -75,3 +75,4 @@
         </plugins>
     </build>
 </project>
+

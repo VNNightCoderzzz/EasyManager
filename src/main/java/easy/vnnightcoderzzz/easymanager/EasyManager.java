@@ -34,7 +34,6 @@ public class EasyManager extends JavaPlugin implements Listener {
     // ---- Life cycle ----
     @Override
     public void onEnable() {
-        saveDefaultConfig();
         loadConfigValues();
 
         // Load command help
